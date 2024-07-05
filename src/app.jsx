@@ -1,14 +1,14 @@
-import { getData } from "./data.js";
+import { getSeriesCount, getSeriesTitle, getSeriesCharacters } from "./data.js";
 import Card from "./components/card";
 
 function App() {
+  const characters = getSeriesCharacters(3);
   return (
-    <Card
-      img={
-        "https://static1.personality-database.com/profile_images/9e31b789328647c4b1e738ad7e14127b.png"
-      }
-      name={"Gohan"}
-    />
+    <div className="cards-container">
+      {characters.map((char) => {
+        return <Card key={char.name} character={char} />;
+      })}
+    </div>
   );
 }
 

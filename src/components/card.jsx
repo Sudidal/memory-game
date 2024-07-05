@@ -1,8 +1,8 @@
-function Card({ img, name }) {
+function Card({ character }) {
   return (
     <div className="card">
-      <img src={img} alt="" />
-      <p>{name}</p>
+      <img src={character.imageUrl} alt="" />
+      <p>{character.name}</p>
     </div>
   );
 }
