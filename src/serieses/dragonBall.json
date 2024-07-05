@@ -1,0 +1,53 @@
+{
+  "title": "Dragon Ball",
+  "characters": [
+    {
+      "name": "Goku",
+      "imageUrl": "https://static1.personality-database.com/profile_images/d0036636bfb54377b1ee20779314ed68.png"
+    },
+    {
+      "name": "Gohan",
+      "imageUrl": "https://static1.personality-database.com/profile_images/9e31b789328647c4b1e738ad7e14127b.png"
+    },
+    {
+      "name": "Vegeta",
+      "imageUrl": "https://static1.personality-database.com/profile_images/c986e8160ef74b7cba81ab1987a2f2d0.png"
+    },
+    {
+      "name": "Piccolo",
+      "imageUrl": "https://static1.personality-database.com/profile_images/9cb5896fe73041c88d8ee34c0287183a.png"
+    },
+    {
+      "name": "Bulma",
+      "imageUrl": "https://static1.personality-database.com/profile_images/10d1bd4835ee4e63bac2058f5cc5123b.png"
+    },
+    {
+      "name": "Frieza",
+      "imageUrl": "https://static1.personality-database.com/profile_images/e0d6f0aa904f42cfab78c83f928f761f.png"
+    },
+    {
+      "name": "Krillin",
+      "imageUrl": "https://static1.personality-database.com/profile_images/8e6a397de07b47d7b01aebc04bc01d81.png"
+    },
+    {
+      "name": "Beerus",
+      "imageUrl": "https://static1.personality-database.com/profile_images/9d2a6719e7b6491a8dfee123ce11fdfe.png"
+    },
+    {
+      "name": "Goten",
+      "imageUrl": "https://static1.personality-database.com/profile_images/c433f53a7f094da68cbc4853be294105.png"
+    },
+    {
+      "name": "Trunks",
+      "imageUrl": "https://static1.personality-database.com/profile_images/4787d138e7444360b976044388d0c226.png"
+    },
+    {
+      "name": "Videl",
+      "imageUrl": "https://static1.personality-database.com/profile_images/504e3e3f38fb47ba875212843b022f9d.png"
+    },
+    {
+      "name": "Pan",
+      "imageUrl": "https://static1.personality-database.com/profile_images/111ab193f777449f8a34b49e7eaa72be.png"
+    }
+  ]
+}

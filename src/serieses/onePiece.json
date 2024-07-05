@@ -1,0 +1,53 @@
+{
+  "title": "One Piece",
+  "characters": [
+    {
+      "name": "Luffy",
+      "imageUrl": "https://static1.personality-database.com/profile_images/82d1aabb6a6a4bc0826354bf54b5216a.png"
+    },
+    {
+      "name": "Zoro",
+      "imageUrl": "https://static1.personality-database.com/profile_images/e79f5a6d2083417cb1bba2888a2e0cc0.png"
+    },
+    {
+      "name": "Nami",
+      "imageUrl": "https://static1.personality-database.com/profile_images/4c884034f4cd40d5bcd573e655b7f4aa.png"
+    },
+    {
+      "name": "Usopp",
+      "imageUrl": "https://static1.personality-database.com/profile_images/fa19d8bbcd2a424490a4d50a3e507781.png"
+    },
+    {
+      "name": "Sanji",
+      "imageUrl": "https://static1.personality-database.com/profile_images/9d91a1e90dac4bdb8e1eee399dc70349.png"
+    },
+    {
+      "name": "Chopper",
+      "imageUrl": "https://static1.personality-database.com/profile_images/6def5ca9a87b4c409419d1c3d536a5df.png"
+    },
+    {
+      "name": "Robin",
+      "imageUrl": "https://static1.personality-database.com/profile_images/bcaf6ef056854ac5943ef0fa9719ca44.png"
+    },
+    {
+      "name": "Franky",
+      "imageUrl": "https://static1.personality-database.com/profile_images/f559155bfc744485820ca3dd543b897e.png"
+    },
+    {
+      "name": "Brook",
+      "imageUrl": "https://static1.personality-database.com/profile_images/d0b6100fef5d409f8802936584de9191.png"
+    },
+    {
+      "name": "Jinbe",
+      "imageUrl": "https://static1.personality-database.com/profile_images/1831b5564cac4399bc54024d06cf343c.png"
+    },
+    {
+      "name": "Teach",
+      "imageUrl": "https://static1.personality-database.com/profile_images/55c2dd12ccbf4687a15b06fd43367a1a.png"
+    },
+    {
+      "name": "Dragon",
+      "imageUrl": "https://static1.personality-database.com/profile_images/ce1d6f12693d4751a1936a6eba9456f1.png"
+    }
+  ]
+}

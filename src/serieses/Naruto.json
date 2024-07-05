@@ -1,0 +1,53 @@
+{
+  "title": "Naruto",
+  "characters": [
+    {
+      "name": "Naruto",
+      "imageUrl": "https://static1.personality-database.com/profile_images/b2fa80f8e912483e9f49006e1a47e5a2.png"
+    },
+    {
+      "name": "Sasuke",
+      "imageUrl": "https://static1.personality-database.com/profile_images/d05cc1fa657e492e8e7a51cecad93c54.png"
+    },
+    {
+      "name": "Sakura",
+      "imageUrl": "https://static1.personality-database.com/profile_images/894f607994de4fed8736456783cfe357.png"
+    },
+    {
+      "name": "Kakashi",
+      "imageUrl": "https://static1.personality-database.com/profile_images/e36fa8af3ba74ebd8e1af7d5d9373020.png"
+    },
+    {
+      "name": "Itachi",
+      "imageUrl": "https://static1.personality-database.com/profile_images/3865e243233a42c2a399e15348bd2f71.png"
+    },
+    {
+      "name": "Madara",
+      "imageUrl": "https://static1.personality-database.com/profile_images/a1e6c61cd26846a091dd2e6730284210.png"
+    },
+    {
+      "name": "Gaara",
+      "imageUrl": "https://static1.personality-database.com/profile_images/8c82755a4b454492bdc20663f215ec5e.png"
+    },
+    {
+      "name": "Obito",
+      "imageUrl": "https://static1.personality-database.com/profile_images/92bfa789366a4a759919148b93e8f04e.png"
+    },
+    {
+      "name": "Orochimaru",
+      "imageUrl": "https://static1.personality-database.com/profile_images/9693314f0c7d4165931102bcb0b1846a.png"
+    },
+    {
+      "name": "Pain",
+      "imageUrl": "https://static1.personality-database.com/profile_images/4b9cbc3948de46bd86774e2621f54e34.png"
+    },
+    {
+      "name": "Hinata",
+      "imageUrl": "https://static1.personality-database.com/profile_images/e7a849f151e242be9300686ac82d6c4c.png"
+    },
+    {
+      "name": "Minato",
+      "imageUrl": "https://static1.personality-database.com/profile_images/58d33f5e8e19459fa75b0307de670637.png"
+    }
+  ]
+}
