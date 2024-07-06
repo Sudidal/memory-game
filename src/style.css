@@ -1,11 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 body {
   background-color: rgb(2, 17, 39);
   color: white
 }
-.cards-container {
+.container {
+  padding: 30px 70px;
+}
+.series-header {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  justify-content: center;
+  margin-top: 0;
+  font-size: 25px;
+}
+.score-container {
+  display: flex;
+  gap: 20px;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
 }
 .card {
   padding: 10px;
