@@ -2,50 +2,62 @@
   "title": "My Hero Academia",
   "characters": [
     {
+      "index": 0,
       "name": "Midoriya",
       "imageUrl": "https://static1.personality-database.com/profile_images/b5551755e8804646b2aaaa3ce91f492e.png"
     },
     {
+      "index": 1,
       "name": "Todoroki",
       "imageUrl": "https://static1.personality-database.com/profile_images/b0310e3ee6e5490093d78905e35117c7.png"
     },
     {
+      "index": 2,
       "name": "Bakugo",
       "imageUrl": "https://static1.personality-database.com/profile_images/1adab336b3e9487aa70b1cfebca10d77.png"
     },
     {
+      "index": 3,
       "name": "Dabi",
       "imageUrl": "https://static1.personality-database.com/profile_images/3682df9ce0414557959c88b89556ce58.png"
     },
     {
+      "index": 4,
       "name": "Shigaraki",
       "imageUrl": "https://static1.personality-database.com/profile_images/845be3782e6449c5940d5f9398f3c604.png"
     },
     {
+      "index": 5,
       "name": "Uraraka",
       "imageUrl": "https://static1.personality-database.com/profile_images/2eda43a334a44a448f95ed649361597a.png"
     },
     {
+      "index": 6,
       "name": "Hawks",
       "imageUrl": "https://static1.personality-database.com/profile_images/e79ca0538168459f987f0645a02cf25d.png"
     },
     {
+      "index": 7,
       "name": "All Might",
       "imageUrl": "https://static1.personality-database.com/profile_images/632dc576869b4454b23417d1c821b893.png"
     },
     {
+      "index": 8,
       "name": "All For One",
       "imageUrl": "https://static1.personality-database.com/profile_images/78df0aebebaf4e5fa76e218771cf1408.png"
     },
     {
+      "index": 9,
       "name": "Stain",
       "imageUrl": "https://static1.personality-database.com/profile_images/6ce7244a56394e27a91fc72d36a49b41.png"
     },
     {
+      "index": 10,
       "name": "Overhaul",
       "imageUrl": "https://static1.personality-database.com/profile_images/15543052f54b4d87adfb47ef20114edc.png"
     },
     {
+      "index": 11,
       "name": "Toga",
       "imageUrl": "https://static1.personality-database.com/profile_images/d05526e642374f8d937ce2d4a4d29cbf.png"
     }

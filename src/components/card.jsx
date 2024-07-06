@@ -1,8 +1,8 @@
-function Card({ character }) {
+function Card({ character, onClick }) {
   return (
-    <div className="card">
-      <img src={character.imageUrl} alt="" />
-      <p>{character.name}</p>
+    <div className="card" onClick={onClick}>
+      <img src={character.imageUrl} alt="" style={{pointerEvents: "none"}} />
+      <p style={{pointerEvents: "none"}}>{character.name}</p>
     </div>
   );
 }
