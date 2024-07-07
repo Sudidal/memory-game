@@ -3,7 +3,7 @@ function DropDownSelect({ options, onChange, title }) {
   return (
     <div>
       <label htmlFor="input">{title + " "}</label>
-      <select id="input" onChange={onChange}>
+      <select className="series-select" id="input" onChange={onChange}>
         {options.map((opt) => {
           return <option key={count} value={count++}>{opt}</option>;
         })}
