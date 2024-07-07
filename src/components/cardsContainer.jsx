@@ -2,7 +2,7 @@ import { useState } from "react";
 import Card from "./card";
 import { scatter } from "../scatter";
 
-function CardsContainer({ series, increaseScore, onWin, onLose }) {
+function CardsContainer({ series, increaseScore, onWin, onLose, gameEnded }) {
   const [clickedCards, setClickedCards] = useState([]);
   const characters = series.characters;
   const scatteredCharacters = scatter(characters);
@@ -12,6 +12,8 @@ function CardsContainer({ series, increaseScore, onWin, onLose }) {
   }
 
   function cardClicked(char) {
+    if (gameEnded) return;
+
     console.log("clicked a card");
     for (let i = 0; i < clickedCards.length; i++) {
       if (clickedCards[i] === char.index) {

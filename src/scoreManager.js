@@ -1,12 +1,4 @@
 const HIGH_SCORE_KEY = "highscore";
-let curScore = 0;
-
-function setCurScore(n) {
-  curScore = n;
-}
-function getCurScore() {
-  return curScore;
-}
 
 function setHighScore(curScore) {
   const prevHighScore = window.localStorage.getItem(HIGH_SCORE_KEY);
@@ -15,7 +7,8 @@ function setHighScore(curScore) {
   }
 }
 function getHighScore() {
-  return window.localStorage.getItem(HIGH_SCORE_KEY);
+  const score = window.localStorage.getItem(HIGH_SCORE_KEY);
+  return score ? score : 0;
 }
 
-export { getCurScore, setCurScore, getHighScore, setHighScore };
+export { getHighScore, setHighScore };
