@@ -16,6 +16,7 @@ body {
   background-color: var(--primary-background-color);
   color: var(--text-color);
   font-family: Roboto, sans-serif;
+  user-select: none;
 }
 .popup {
   width: 350px;
@@ -100,7 +101,7 @@ body {
 .card p {
   font-size: 25px;
   letter-spacing: 3px;
-  font-weight: bold;
+  font-weight: 500;
   font-family: "Bebas Neue";
 }
 .card img {
@@ -122,7 +123,7 @@ body {
     pointer-events: none;
   }
   12% {
-    transform: scale(1.1);
+    transform: scale(1.5);
     transform: translateY(-20px);
   }
   24% {
@@ -152,7 +153,7 @@ body {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1440px) {
   .container {
     padding: 60px 90px;
     font-size: 20px;
