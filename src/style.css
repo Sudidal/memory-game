@@ -110,19 +110,26 @@ body {
 
 
 @keyframes card-flip {
+  0% {
+    pointer-events: none;
+  }
   12% {
     transform: scale(1.1);
     transform: translateY(-20px);
   }
+  24% {
+    box-shadow: none;
+  }
   25% {
     transform: rotateY(-180deg);
-    box-shadow: 0px 0px 40px rgba(89, 0, 255, 0.623)
+    box-shadow: 0px 0px 40px rgba(89, 0, 255, 0.5)
   }
   50% {
     transform: rotateY(-180deg);
   }
   100% {
     transform: rotateY(0deg);
+    pointer-events: none;
   }
 }
 @keyframes child-flip {
