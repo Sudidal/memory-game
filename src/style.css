@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 * {
   box-sizing: border-box;
@@ -117,7 +117,6 @@ body {
   box-shadow: var(--hover-box-shadow);
 }
 
-
 @keyframes card-flip {
   0% {
     pointer-events: none;
@@ -131,7 +130,7 @@ body {
   }
   25% {
     transform: rotateY(-180deg);
-    box-shadow: 0px 0px 40px rgba(89, 0, 255, 0.5)
+    box-shadow: 0px 0px 40px rgba(89, 0, 255, 0.5);
   }
   50% {
     transform: rotateY(-180deg);
@@ -152,3 +151,63 @@ body {
     transform: scaleX(1);
   }
 }
+
+@media (min-width: 1500px) {
+  .container {
+    padding: 60px 90px;
+    font-size: 20px;
+  }
+  .series-select {
+    padding: 10px;
+    width: 250px;
+    font-size: 18px;
+  }
+  .series-header {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  .card .content {
+    gap: 30px;
+  }
+  .card p {
+    font-size: 35px;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    padding: 30px 50px;
+  }
+  .card p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 750px) {
+  .container {
+    padding: 30px 40px
+  }
+  .cards-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    padding: 20px 20px
+  }
+  .series-header {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card p {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+}
+
+/* 
+  Desktop: 1920×1080, 1366×768, 1280×1024, 1024×768
+  Mobile: 375×667, 414×736, 360×800, 390×844
+  Tablet: 768×1024, 1024×768, 601×962
+ */
